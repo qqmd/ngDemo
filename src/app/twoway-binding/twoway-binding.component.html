@@ -1,0 +1,7 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">双向绑定</div>
+  <div class="panel-body">
+    <fish-font-resizer [(size)]="fontSizePx"></fish-font-resizer>
+    <p [style.font-size.px]="fontSizePx">父组件的文字更改大笑</p>
+  </div>
+</div>
